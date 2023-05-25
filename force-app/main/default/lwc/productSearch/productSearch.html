@@ -1,0 +1,11 @@
+<template>
+  <lightning-card title="Find Products">
+    <lightning-input slot="actions"
+                     name="prod-search"
+                     label="Filter Products..."
+                     type="search"
+                     onchange={handleSearch}>
+    </lightning-input>
+    <c-products-tree-grid></c-products-tree-grid>
+  </lightning-card>
+</template>
